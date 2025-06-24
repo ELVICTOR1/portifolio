@@ -1,0 +1,46 @@
+.light {
+  body {
+    background: url(./img/bg-mobile-light.jpg) no-repeat top center/cover;
+    height: 100vh;
+  }
+
+  #switch {
+    button {
+      animation: slide-in 0.2s forwards;
+      background: white url(./img/sun.svg) no-repeat top center/cover;
+      left: 50% !important;
+    }
+    span {
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  ul li a {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.02);
+      border: 1.5px solid black;
+    }
+  }
+
+  #social-links a:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    color: black;
+  }
+
+  .profile-photo {
+    border: 3px solid #4b55ea;
+  }
+
+  a,
+  p,
+  ion-icon {
+    color: black;
+  }
+}
